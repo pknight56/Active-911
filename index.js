@@ -254,7 +254,7 @@ client.channels.get(config.output).send(units)
 
 client.channels.get(config.confirm).send(embed2);
 
-message.channel.fetchMessages({ limit: 1 }).then(messages => message.channel.bulkDelete(messages.filter(a => !a.author.bot)))
+message.channel.fetchMessages({ limit: 100 }).then(messages => message.channel.bulkDelete(messages.filter(a => !a.author.bot)))
 
 }).catch(err => {
     console.log(err)
