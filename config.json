@@ -1,4 +1,6 @@
 {
-    "token": "YourTOKEN",
-    "prefix": "!"
+    "token": "",
+    "prefix": "!",
+    "output": "",
+    "confirm": ""
     }
