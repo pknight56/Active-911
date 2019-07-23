@@ -33,6 +33,19 @@ Welcome to OOFs Active 911 Pager Bot! This bot uses one command: !dispatch. It s
 2. Press enter
 3. Your bot should start!
 
+## Step 7: Commands
+!dispatch - Returns call and pages, When prompted for alarm, only type in the number. Alarm is added automatically. If not a fire call, type No. That will return "No Alarm". When Prompted for city you can type the thing out, or use an abbreviation. 
+
+"W" = "Westover"
+ 
+"K" = "Kensington"
+ 
+"Ps" = "Palm Shores"
+ 
+"SB" = "South Beach"
+
+"Wb" = "Woodbury" 
+
 THIS IS NOT AN EXACT SCIENCE. DM oofboi420#6511 with any questions comments or concerns. Updates for this bot will be released regularly. Please keep your dms open to receive updates!
 
 # DM OOF WITH QUESTIONS
