@@ -139,7 +139,7 @@ message.channel.awaitMessages(filter, {
     case "K":
        city = "Kensington"
     break;
-    case "Ps":
+    case "PS":
        city = "Palm Shores"
     break;
     case "SB":
@@ -249,10 +249,10 @@ const embed2 = new Discord.RichEmbed()
 .addField("**Info**", `${call},${place},${address},${alarm},${dispatchtime},${map},${units},${info},${opschannel}`)
 
 
-client.channels.get("OUTPUTID").send(embed);
-client.channels.get("OUTPUTID").send(units)
+client.channels.get(config.output).send(embed);
+client.channels.get(config.output).send(units)
 
-client.channels.get("CONFIRMID").send(embed2);
+client.channels.get(config.confirm).send(embed2);
 
 message.channel.fetchMessages({ limit: 1 }).then(messages => message.channel.bulkDelete(messages.filter(a => !a.author.bot)))
 
